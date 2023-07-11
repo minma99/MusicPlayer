@@ -1,0 +1,16 @@
+.item{
+    background-color:  rgb(233, 210, 210);
+    border: rgb(233, 210, 210);
+    transition: all 600ms;
+    margin-top: 2rem;
+}
+    
+.item:hover{
+    transform:scale(0.75 , 0.75);
+
+} 
+.select{
+    background-color:rgba(139, 112, 112, 0.994) ;
+    border-radius: 5px;
+
+}
