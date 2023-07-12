@@ -18,8 +18,8 @@ export default function Song(props) {
                                 className='rounded-pill' />
                             <Card.Body>
                                 <Card.Title className='pt-1 text-secondary '>
-                                    <div className='p-1'><h5>{props.name}</h5></div>
-                                    <div className='p-1'><p>{props.artist}</p></div>
+                                    <div className='p-1'><h4 className=' fw-light text-danger'>--{props.name}--</h4></div>
+                                    <div className='p-1'><h5>{props.artist}</h5></div>
                                 </Card.Title>
                             </Card.Body>
                         </Card>
